@@ -1,0 +1,132 @@
+/**
+ * 4.3.2023
+ * Added a darkmode
+ */
+:root {
+	--palette-1: #303030;
+	--palette-2: #373738;
+	--palette-3: #555561;
+	--palette-4: #ffffff;
+}
+
+#eventTabControl {
+	background-color: var(--palette-1);
+}
+
+#eventTabPanes {
+	background-color: var(--palette-1);
+    color: var(--palette-4);
+}
+
+/* #eventTabPanes > li:hover, #eventTabPanes > li:active {
+	background-color: var(--palette-2);
+	color: var(--palette-1);
+} */
+
+#searchRegion {
+	background-color: var(--palette-1);
+}
+
+#searchInput {
+	background-color: var(--palette-1);
+    color: var(--palette-4);
+}
+/* 
+#transcriptTabPane > div.event-tab-scroll-pane::-webkit-scrollbar-track {
+	background: orange;
+} */
+
+.viewer #viewerContent #leftPane .index-event:active, .viewer #viewerContent #leftPane .index-event:hover, .viewer #viewerContent #leftPane .index-event.highlighted {
+	background-color: var(--palette-2) !important;
+	color: var(--palette-4);
+}
+
+#viewerHeader {
+	background-color: var(--palette-1) !important;
+	color: var(--palette-4);	
+}
+
+#playControlsWrapper{
+	background-color: var(--palette-1);
+}
+
+#transportControls>div:active, #transportControls>div:hover {
+	background-color: var(--palette-2);
+}
+
+#thumbnailList {
+	background-color: var(--palette-1);
+}
+
+
+/* Time slider */
+
+#positionSlider {
+	background-color: var(--palette-1);
+}
+
+#positionBar {
+	background-color: var(--palette-4);
+	border-color: var(--palette-4);
+}
+
+#timeElapsed, #hoverTimestamp {
+	color: var(--palette-4) !important;
+}
+
+
+/* Sidebar stuff */
+
+#eventTabControl>div.event-tab-header.accented-tab {
+	color: var(--palette-4)
+}
+
+#eventTabControl>div.event-tab-header.accented-tab.selected {
+	background-color: var(--palette-3) !important;
+	border-left-color: var(--palette-3) !important;
+}
+
+/* Fullscreen player controls */
+div#fullscreenControlsWrapper > #playControls > div#transportControls {
+	background-color: var(--palette-1) !important;
+    border-left: solid 1px var(--palette-1) !important;
+}
+
+
+/* Scrollbar stuff */
+/* Source: https://stackoverflow.com/questions/11178673/how-to-override-important */
+
+::-webkit-scrollbar {
+    height: 13px;
+    width: 13px;
+    background: var(--palette-2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--palette-3);
+	width: 11px;
+}
+
+
+/* Getting rid of the weird border line */
+#viewerContent {
+	background-color: var(--palette-1);
+}
+
+#qualityBar {
+	background-image: url("chrome-extension://__MSG_@@extension_id__/images/modified_player_quality_bar.png") !important;
+	background-color: var(--palette-1) !important;
+}
+
+
+#qualityText, #speedText, .player-tab-title.ellipsis  {
+	color: var(--palette-3);
+}
+
+#timeRemaining {
+	color: white !important;
+}
+
+#searchInput {
+	color: #bdbdbd !important;
+}

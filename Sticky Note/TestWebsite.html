@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function inIframe (hello) {
+	if (typeof(hello) != 'undefined') {
+		document.getElementById('demo').innerHTML = 'The value of input is "' + hello + '".';
+	} else {
+		document.getElementById('demo').innerHTML = 'There is no input!';
+	}
+}
+</script>
+<script src="C:\Users\Noah Baxley\Dropbox\BaxleyKids\Noah\Programming\Mock dll files\UniversalFunctions.js"></script>
+</head>
+<body>
+<div>
+	
+</div>
+<div>
+	<button onclick="inIframe()">Run Function Without Input</button>
+	<button onclick="inIframe('hello')">Run Function With 'Hello'</button>
+	<p id="demo"></p>
+</div>
+</body>
+</html>

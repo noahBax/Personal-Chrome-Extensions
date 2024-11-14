@@ -1,0 +1,124 @@
+{
+	"content_scripts": [
+		{
+			"matches": ["https://*.fandom.com/*"],
+			"js": ["jquery.js", "siteFolder/fandom.js"],
+			"css":[],
+			"run_at": "document_end",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://www.w3schools.com/*"],
+			"js": ["jquery.js", "siteFolder/w3schools.js"],
+			"css":[],
+			"run_at": "document_end",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://www.tutorialspoint.com/*"],
+			"js": ["jquery.js", "siteFolder/tutpoint.js"],
+			"css":[],
+			"run_at": "document_end",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://www.geeksforgeeks.org/*"],
+			"js":["siteFolder/geeksForGeeks.js"],
+			"css": [],
+			"run_at": "document_end",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://login.iit.edu/*"],
+			"js": [],
+			"css": ["siteFolder/iitLogin.css"],
+			"run_at": "document_start",
+			"all_frames": true
+		},
+		{
+			"matches": [
+				"https://iit.okta.com/login/*",
+				"https://iit.okta.com/app/iit_blackboard_1/*",
+				"https://iit.okta.com/signin/verify/okta/question",
+				"https://iit.okta.com/*",
+				"https://iit.okta.com/app/*"
+			],
+			"js": ["siteFolder/iitStupid.js"],
+			"css": ["siteFolder/iitStupid.css"],
+			"run_at": "document_end",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://iit.hosted.panopto.com/Panopto/Pages/*"],
+			"js": [],
+			"css": ["siteFolder/hostedPanopto.css"],
+			"run_at": "document_end",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://iit.hosted.panopto.com/Panopto/Pages/*"],
+			"css": ["siteFolder/hostedPanoptoLoading.css"],
+			"run_at": "document_start",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://app.getinclusive.com/*"],
+			"css": ["siteFolder/getInclusive.css"],
+			"run_at": "document_start",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://ww7.manganelo.tv/chapter/*"],
+			"css": ["siteFolder/ww7mangelo.css"],
+			"run_at": "document_end",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://aniwave.to/*"],
+			"js": ["siteFolder/aniwave.js"],
+			"run_at": "document_start",
+			"all_frames": true
+		},
+		{
+			"matches": ["https://ntp.msn.com/edge/*"],
+			"js": ["siteFolder/edgeNewTab.js"],
+			"run_at": "document_start",
+			"all_frames": true
+		},
+		{
+			"matches": ["http://cs.iit.edu/~fgh/pintos/*"],
+			"run_at": "document_end",
+			"css": ["siteFolder/PintOS.css"],
+			"all_frames": true
+		}
+	],
+	"manifest_version": 3,
+	"name": "AdsBeGone",
+	"version": "0.1.1",
+	"action": {
+		"default_popup": "popup.html",
+		"browser_style": true,
+		"default_icon": {
+			"16": "images/icon16.png",
+			"24": "images/icon24.png",
+			"32": "images/icon32.png"
+		},
+		"default_title": "Flip Switch",
+		"src":["popup.js","jquery-ui.min.js"]
+	},
+	"icons": {
+		"48": "images/icon48.png",
+		"96": "images/icon96.png"
+	},
+	"web_accessible_resources": [
+		{
+			"resources": ["images/polish-cow-cow.gif", "images/modified_player_quality_bar.png", "images/rimworld.png", "images/*"],
+			"matches": ["https://*.panopto.com/*", "https://iit.okta.com/*"]
+		}
+	],
+	"permissions": [
+		"storage",
+		"unlimitedStorage",
+		"tabs"
+	]
+}

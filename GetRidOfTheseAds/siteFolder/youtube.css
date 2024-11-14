@@ -1,0 +1,16 @@
+/**
+ * 5.9.2021
+ * There isn't actually any ads to get rid of. I just wanted to add this cool background style to the cards
+ * 
+ * 4.4.2023
+ * Had to disable this and I don't have time to fix this, it is broken
+ */
+/* ytd-rich-item-renderer:hover {
+    border-radius: 2px;
+    transform: scale(1.08);
+    background-color: #80808091;
+}
+ytd-rich-item-renderer {
+    transition: background-color 0.19s, transform 0.19s;
+    transition-timing-function: cubic-bezier(0.22, 1.37, 0.19, 0.68);
+} */

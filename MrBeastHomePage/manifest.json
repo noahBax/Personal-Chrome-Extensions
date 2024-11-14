@@ -1,0 +1,16 @@
+{
+	"manifest_version": 3,
+	"name": "Mr. Beast Is My Home Page",
+	"description": "THIS WEEK I MADE MR BEAST MY HOME PAGE!",
+	"version": "1.0",
+	"action": {
+		"default_popup": "hello.html",
+		"default_icon": "hello_extensions.png"
+	},
+	"chrome_url_overrides" : {
+		"newtab": "page.html"
+	},
+	"permissions": [
+		"storage"
+	]
+}

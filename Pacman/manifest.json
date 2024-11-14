@@ -1,0 +1,27 @@
+{
+"content_scripts": [
+	{
+		"exclude_matches": ["file:///C:/Users/Noah%20Baxley/Dropbox/BaxleyKids/Noah/Programming/Chrome%20Extension%20Test/Sendertoreciever/Sender.html"],
+		"matches": ["<all_urls>"],
+		"js": ["content.js","DLLPacman.js"],
+		"run_at": "document_end",
+		"all_frames": true
+	}
+	],
+  "manifest_version": 2,
+  "name": "Pacman Game",
+  "version": "1.0",
+	"background": {
+		"scripts": ["content.js","DLLPacman.js"]
+	},
+	"permissions": [
+		"activeTab",
+		"storage"
+	],
+	"content_security_policy": 
+		"script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"web_accessible_resources": [
+		"best-pacman-gif-754.gif",
+		"Pacfood.png"
+	]
+}

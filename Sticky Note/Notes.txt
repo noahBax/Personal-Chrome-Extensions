@@ -1,0 +1,20 @@
+To get the thing so stop selecting every time you click on it
+Look up event bubbling
+Look up stopping event bubbling
+look up some more with the focus
+Focus doesn't work
+
+Add something where you can turn off the note for that specific page
+Possibly need a little optional table that pops up when you activatete the default_popup
+	Option to use sticky notes for the page
+		Turn this page/domain/specific-time off
+		Turn this page/domain/specific-time on
+	Color of notes
+	Style of notes
+	Font of notes
+	
+https://www.w3schools.com/tags/att_global_data.asp
+Use data attributes <div data-Information here="1333">
+Add something in the bottom section when chrome storage updates that checks to see if the page has a dontedit of true on it.. It if doesn't, update it.
+
+Chrom storage = sync or local

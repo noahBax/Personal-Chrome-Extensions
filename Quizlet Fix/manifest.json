@@ -1,0 +1,19 @@
+{
+	"name": "Automatic-Login Gmail: Quizlet",
+	"version": "1.1",
+	"description": "Logs you into quizlet by your gmail account when going to quizlet.com",
+	"manifest_version": 2,
+	"icons": {
+	"48": "Quizlet.png",
+	"96": "Quizlet.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://quizlet.com/"],
+			"js": ["Fix.js"]
+		}
+	],
+	"page_action":{
+		"default_icon": "StickyNote.png"
+	}
+}

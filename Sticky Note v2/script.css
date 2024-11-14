@@ -1,0 +1,26 @@
+.xbu {
+	position: absolute;
+	right: 1px;
+	top: 3%;
+	height: 94%;
+	display: block;
+	opacity: .5;
+}
+.nhead {
+	position: relative;
+	border-radius: 3px;
+	text-align: right;
+	height: 18px;
+	background-color: #B2AD2D;
+	width: 100%;
+}
+.ntexta {
+	width: 240px;
+	height: 110px;
+	border: none;
+	background-color: #EBE33B;
+	position: relative;
+}
+.stickyNoteContainer {
+	position: absolute;
+}

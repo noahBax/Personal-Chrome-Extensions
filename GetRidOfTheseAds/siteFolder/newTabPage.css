@@ -1,0 +1,7 @@
+#content {
+	--ntp-logo-color: rgb(255 0 0) !important;
+}
+
+body {
+	background-color: red;
+}

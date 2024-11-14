@@ -1,0 +1,34 @@
+{
+"content_scripts": [
+	{
+		"exclude_matches": ["file:///C:/Users/Noah%20Baxley/Dropbox/BaxleyKids/Noah/Programming/Chrome%20Extension%20Test/Sendertoreciever/Sender.html"],
+		"matches": ["<all_urls>"],
+		"js": ["Jquery/jquery-3.2.1.min.js","Classes.js","NoteWriter.js"],
+		"css": ["look.css"],
+		"run_at": "document_end",
+		"all_frames": true
+	}
+	],
+  "manifest_version": 2,
+  "name": "Sticky Notes V2",
+  "version": "1.0.2",
+  "browser_action": {
+	"default_popup": "Popup.html",
+	"browser_style": true,
+    "default_icon": "StickyNote.png",
+	"default_title": "Sticky Note Adder"
+   },
+  "icons": {
+   "48": "StickyNote.png",
+   "96": "StickyNote.png"
+   },
+	"permissions": [
+		"activeTab",
+		"storage"
+	],
+	"content_security_policy": 
+		"script-src 'self' 'unsafe-eval' 'unsafe-inline'; object-src 'self'",
+	"web_accessible_resources": [
+		"Thumbtack.png"
+	]
+}

@@ -1,0 +1,119 @@
+#NoteContainer>.classify>.textNotes {
+	font-size:13px;
+	padding: 4px;
+	border-radius: 0px;
+	margin: 0px;
+	background-color: #FFE203;
+	padding-right: 14px;
+	opacity: .6;
+	font-weight: bold;
+	position: relative;
+	z-index: 2147483646;
+	font-family: cursive;
+	box-sizing: border-box;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    flex-direction: column;
+    resize: auto;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+	vertical-align: top;
+	width: 100%;
+}
+.textNotesLucid {
+	font-size: 13px;
+	padding: 4px;
+	border-radius: 0px;
+	margin: 0px;
+	background-color: yellow;
+	padding-right: 14px;
+	opacity: 1;
+	font-weight: bold;
+	z-index: 2147483646;
+	font-family: cursive;
+	box-sizing: border-box;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    flex-direction: column;
+    resize: auto;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+	width: 100%;
+}
+.xBar {
+	width: 100%;
+	height: 15px;
+	background-color: #CFCF00;
+	position: relative;
+	top: 1px;
+	left: 1px;
+	display: block;
+	border-radius: 0px;
+	border: 1px solid black;
+	cursor: pointer;
+	padding: 0px;
+}
+.xBarTrans {
+	width: 100%;
+	height: 15px;
+	background-color: #CFCF00;
+	position: relative;
+	top: 1px;
+	left: 1px;
+	display: block;
+	border-radius: 0px;
+	border: 1px solid black;
+	cursor: pointer;
+	opacity: .8;
+	padding: 0px;
+}
+.classify {
+	display: block;
+	z-index: 2147483646;
+	top: 1px;
+	position: fixed;
+	left: 50%;
+}
+#NoteContainer>.classify>.xButton{
+	top: 2.5px;
+	right: 2px;
+	position: absolute;
+	background: transparent;
+	border: none;
+	padding: 0px;
+	text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+	text-shadow: none;
+    display: inline-block;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+	user-select: none;
+	white-space: pre;
+	-webkit-appearance: push-button;
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	color: buttontext;
+	box-sizing: border-box;
+	min-height: 0;
+}
+.PinStyle {
+	top: 1.5px;
+	padding: 0px;
+	right: 9px;
+	position: absolute;
+	background: transparent;
+	border: none;
+	height: 15px;
+	width: 15px;
+	z-index: 2147483646;
+}

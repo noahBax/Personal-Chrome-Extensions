@@ -1,0 +1,106 @@
+/**
+ * 9.6.2024
+ * Literally just asked ChatGPT to turn the existing stylesheet into a darker
+ * mode version and then made some light modifications to make it a little
+ * easier on the eyes. Vamsi also suggested I should make the code sections
+ * yellow instead of white which actually looks better but I don't know what the
+ * best shade of yellow should be.
+ */
+
+body {
+	background: #121212 !important; /* Dark background */
+	color: #e0e0e0de !important; /* Light text color */
+	padding: 0em 1em 0em 3em !important;
+	margin: 0 !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 8in !important;
+	text-align: justify !important;
+}
+
+body>p {
+	margin: 0pt 0pt 0pt 0em !important;
+	text-align: justify !important;
+}
+
+body>p + p {
+	margin: .75em 0pt 0pt 0pt !important;
+}
+
+H1 {
+	font-size: 150% !important;
+	margin-left: -1.33em !important;
+}
+
+H2 {
+	font-size: 125% !important;
+	font-weight: bold !important;
+	margin-left: -.8em !important;
+}
+
+H3 {
+	font-size: 100% !important;
+	font-weight: bold !important;
+	margin-left: -.5em !important;
+}
+
+H4 {
+	font-size: 100% !important;
+	margin-left: 0em !important;
+}
+
+H1, H2, H3, H4, H5, H6 {
+	font-family: sans-serif !important;
+	color: #bb86fc !important; /* Lighter purple color for headings */
+}
+
+H1, H2 {
+	text-decoration: underline !important;
+}
+
+html {
+	margin: 0 !important;
+	font-weight: lighter !important;
+}
+
+tt, code {
+	font-family: sans-serif !important;
+	color: #d8db24c9 !important;
+	background-color: #252525 !important; /* Darker background for code */
+	padding: 0.1em 0.3em !important;
+	border-radius: 1px !important;
+}
+
+b, strong {
+	font-weight: bold !important;
+}
+
+a:link {
+	color: #82b1ff !important; /* Light blue for links */
+	text-decoration: none !important;
+}
+
+a:visited {
+	color: #df3068 !important; /* Grey for visited links */
+	text-decoration: none !important;
+}
+
+a:active {
+	color: #e0e0e0de !important; /* White for active links */
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: underline !important;
+	color: #82b1ff !important;
+}
+
+address {
+	font-size: 90% !important;
+	font-style: normal !important;
+	color: #b0bec5 !important; /* Grey for address */
+}
+
+HR { 
+	display: none !important;
+}

@@ -1,0 +1,34 @@
+Backup of notes
+Storage: UpdateNumber is: 3207
+ClockNumber is: 3207
+textNoteNumber is: 0
+alreadyUsed is:  
+NoteBank is: <span class="classify" id="Span3" style="top: 62px; left: 1214px;"><span id="xBar3" class="xBarTrans"></span><input type="button" value="X" id="xButton3" class="xButton"><textarea id="tarea3" class="textNotes" placeholder="Type your note here" style="margin: 0px; width: 194px; height: 134px;">July 31-Aug. 4
+Bring $10
+@unityma</textarea><img id="Pin3" src="chrome-extension://nbjnodjbnmcojibnfpbgccibgedlicbp/Thumbtack.png" title="Stick to this page only" class="PinStyle" data-demand-load="loaded"></span><span class="classify" id="Span0" style="top: 182px; left: 1221px;"><span id="xBar0" class="xBarTrans"></span><input type="button" value="X" id="xButton0" class="xButton"><textarea id="tarea0" class="textNotes" placeholder="Type your note here" style="margin: 0px; width: 237px; height: 194px;">Don't be lasagna
+--Music
+Kick the dust up
+I see you
+Make my world go Black
+wake up in a small town
+Dirt on my boots</textarea><img id="Pin0" src="chrome-extension://nbjnodjbnmcojibnfpbgccibgedlicbp/Thumbtack.png" title="Stick to this page only" class="PinStyle" data-demand-load="loaded"></span><span class="classify" id="Span1" style="top: 66px; left: 1234px;"><span id="xBar1" class="xBarTrans"></span><input type="button" value="X" id="xButton1" class="xButton" title="Close note"><textarea id="tarea1" class="textNotes" placeholder="Type your note here" style="margin: 0px; width: 227px; height: 224px;">The Nightshift
+Newgirl
+Breaking Bad
+Law and Order
+Jane the Virgin
+Greys Anatomy
+Scorpion</textarea><img id="Pin1" src="chrome-extension://nbjnodjbnmcojibnfpbgccibgedlicbp/Thumbtack.png" title="Stick to this tab only" class="PinStyle" data-demand-load="loaded"></span><span class="classify" id="Span2" style="top: 54px; left: 1205px;"><span id="xBar2" class="xBarTrans"></span><input type="button" value="X" id="xButton2" class="xButton" title="Close note"><textarea id="tarea2" class="textNotes" placeholder="Type your note here" style="margin: 0px; width: 317px; height: 353px;">Get some trombone music and memorize some of that
+Learn to play piano
+Program stuff, only do a project per day though
+Listen to more country music
+Watch the Netflix shows you have over to the right
+Talk to  more
+Be open
+Talk to Elijah more
+Talk to Connor more
+Play minecraft with Elijah
+Go to Elijah's house more
+Take CSS class
+Newgirl s2 e2</textarea><img id="Pin2" src="chrome-extension://nbjnodjbnmcojibnfpbgccibgedlicbp/Thumbtack.png" title="Stick to this tab only" class="PinStyle" data-demand-load="loaded"></span><span class="classify" id="Span5" style="top: 497px; left: 745px;"><span id="xBar5" class="xBarTrans"></span><input type="button" value="X" id="xButton5" class="xButton" title="Close note"><textarea id="tarea5" class="textNotes" placeholder="Type your note here" style="margin: 0px; width: 213px; height: 166px;">Say something about chrome storage and how I can use sync as well as local
+Shares across tabs
+Say what you plan to do</textarea><img id="Pin5" src="chrome-extension://nbjnodjbnmcojibnfpbgccibgedlicbp/Thumbtack.png" title="Stick to this tab only" class="PinStyle"></span> 

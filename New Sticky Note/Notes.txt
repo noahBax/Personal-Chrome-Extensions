@@ -1,0 +1,21 @@
+Done
+	Basic classes are done
+		Storage
+		able
+		ID
+		Note
+	Added a way to set a thing in the Notes local storage
+Get Done
+	Add a function to storage called "Update" that updates the notes
+
+Things to Know
+
+
+Random Things to Add
+
+
+Doing Now
+	Working on getting new id working so it can be grabbed randomly
+	Create a more efficient way to get a note
+		and see if it exists
+		and grab properties
