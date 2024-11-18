@@ -68,18 +68,6 @@
 			"all_frames": true
 		},
 		{
-			"matches": ["https://ww7.manganelo.tv/chapter/*"],
-			"css": ["siteFolder/ww7mangelo.css"],
-			"run_at": "document_end",
-			"all_frames": true
-		},
-		{
-			"matches": ["https://aniwave.to/*"],
-			"js": ["siteFolder/aniwave.js"],
-			"run_at": "document_start",
-			"all_frames": true
-		},
-		{
 			"matches": ["https://ntp.msn.com/edge/*"],
 			"js": ["siteFolder/edgeNewTab.js"],
 			"run_at": "document_start",
