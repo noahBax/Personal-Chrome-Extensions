@@ -78,6 +78,12 @@
 			"run_at": "document_end",
 			"css": ["siteFolder/PintOS.css"],
 			"all_frames": true
+		},
+		{
+			"matches": ["https://learn.zybooks.com/zybook/*"],
+			"run_at": "document_end",
+			"css": ["siteFolder/zybooks.css"],
+			"all_frames": true
 		}
 	],
 	"manifest_version": 3,

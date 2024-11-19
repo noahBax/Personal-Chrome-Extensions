@@ -1,0 +1,9 @@
+/**
+ * 11.19.2024
+ * Get rid of zyBooks annoying scrollbar that appears when player based
+ * animations have not started yet
+ */
+
+.content-resource.animation-player-content-resource.overflow-auto.ember-view {
+	overflow: hidden !important;
+}
