@@ -1,12 +1,17 @@
 /**
- * 4.3.2023
- * Added a darkmode
+ * 4.3.2023 Added a darkmode
+ *
+ * 11.28.2024
+ * Fixed event tab controls and search bar text not having right
+ * color and search bar text 
  */
 :root {
 	--palette-1: #303030;
 	--palette-2: #373738;
 	--palette-3: #555561;
-	--palette-4: #ffffff;
+	--palette-4: #bdbdbd;
+	--palette-5: #ffffff;
+
 }
 
 #eventTabControl {
@@ -15,7 +20,7 @@
 
 #eventTabPanes {
 	background-color: var(--palette-1);
-    color: var(--palette-4);
+    color: var(--palette-5);
 }
 
 /* #eventTabPanes > li:hover, #eventTabPanes > li:active {
@@ -27,10 +32,6 @@
 	background-color: var(--palette-1);
 }
 
-#searchInput {
-	background-color: var(--palette-1);
-    color: var(--palette-4);
-}
 /* 
 #transcriptTabPane > div.event-tab-scroll-pane::-webkit-scrollbar-track {
 	background: orange;
@@ -38,12 +39,12 @@
 
 .viewer #viewerContent #leftPane .index-event:active, .viewer #viewerContent #leftPane .index-event:hover, .viewer #viewerContent #leftPane .index-event.highlighted {
 	background-color: var(--palette-2) !important;
-	color: var(--palette-4);
+	color: var(--palette-5);
 }
 
 #viewerHeader {
 	background-color: var(--palette-1) !important;
-	color: var(--palette-4);	
+	color: var(--palette-5);	
 }
 
 #playControlsWrapper{
@@ -66,19 +67,23 @@
 }
 
 #positionBar {
-	background-color: var(--palette-4);
-	border-color: var(--palette-4);
+	background-color: var(--palette-5);
+	border-color: var(--palette-5);
 }
 
 #timeElapsed, #hoverTimestamp {
-	color: var(--palette-4) !important;
+	color: var(--palette-5) !important;
 }
 
 
 /* Sidebar stuff */
 
-#eventTabControl>div.event-tab-header.accented-tab {
-	color: var(--palette-4)
+#eventTabControl>div.event-tab-header.accented-tab:not(:hover) {
+	color: var(--palette-5) !important;
+}
+
+#eventTabControl>div.event-tab-header.accented-tab:hover {
+	color: var(--palette-1) !important;
 }
 
 #eventTabControl>div.event-tab-header.accented-tab.selected {
@@ -128,5 +133,12 @@ div#fullscreenControlsWrapper > #playControls > div#transportControls {
 }
 
 #searchInput {
-	color: #bdbdbd !important;
+	color: var(--palette-5) !important;
+	background-color: var(--palette-1);
 }
+
+#searchInput::placeholder {
+	color: var(--palette-4) !important;
+}
+
+/* event-tab-header accented-tab */
